@@ -12,7 +12,7 @@ This project represents a **cross-domain adaptation** of the SCI_Reason methodol
 - **Financial Reasoning Patterns**: Risk assessment, market analysis, quantitative methods
 - **Domain-Specific Templates**: Tailored for financial methodologies and conclusions
 
-## 🎯 Key Innovations
+##  Key Innovations
 
 - ✅ **Complete SCI_Reason Implementation**: End-to-end multimodal scientific reasoning pipeline
 - ✅ **MCTS Reasoning Engine**: Novel application of game AI algorithms for chain-of-thought generation  
@@ -33,5 +33,5 @@ This project represents a **cross-domain adaptation** of the SCI_Reason methodol
 
 ```bash
 git clone https://github.com/Riokong/SCI_Reason.git
-cd sci-reason-mcts
+cd SCI_Reason
 pip install -r requirements.txt
