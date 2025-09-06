@@ -1,0 +1,315 @@
+[
+  {
+    "question_id": "q_2663",
+    "reasoning_type": "professional_entity_location",
+    "question": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes ______1______'s single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market ______2______.",
+    "answers": [
+      "Benchmarks & Origin Attributes",
+      "Freddie Mac"
+    ],
+    "thought_chain": [
+      "Question: presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes ______1______'s single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market ______2______.",
+      "Analyze the professional context and domain",
+      "Consider organizations like Benchmarks & Origin Attributes, Freddie Mac that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_6600",
+    "reasoning_type": "multimodal_temporal_reasoning",
+    "question": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for ______1______2______ The study utilizes Freddie Mac's single-family ______3______ spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "answers": [
+      "mortgage monthly performance data",
+      "- month default status.",
+      "next-month"
+    ],
+    "thought_chain": [
+      "Question: presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for ______1______2______ The study utilizes Freddie Mac's single-family ______3______ spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+      "Examine the time-related information: mortgage monthly performance data, - month default status.",
+      "Analyze chronological relationships",
+      "Connect timing with context"
+    ],
+    "reasoning_quality_score": 0.7008333333333332,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_9209",
+    "reasoning_type": "cross_subgraph_role_reasoning",
+    "question": "presents a pipeline ______1______ for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2_______ is composed of ______4______: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "answers": [
+      "the pipeline architecture",
+      "three main stages",
+      "architecture",
+      "architecture"
+    ],
+    "thought_chain": [
+      "Question: presents a pipeline ______1______ for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2_______ is composed of ______4______: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+      "Analyze the structural elements: the pipeline architecture, three main stages and their relationships",
+      "Analyze component relationships",
+      "Understand component roles"
+    ],
+    "reasoning_quality_score": 0.8008333333333333,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_6295",
+    "reasoning_type": "causal_mechanism_reasoning",
+    "question": "presents a pipeline architecture for model inference in a scientific study ______1______ distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2______ is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "answers": [
+      "related to predicting probability",
+      "the pipeline architecture"
+    ],
+    "thought_chain": [
+      "Question: presents a pipeline architecture for model inference in a scientific study ______1______ distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2______ is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+      "Trace how related to predicting probability leads to the described outcome",
+      "Trace causal pathways",
+      "Analyze mechanisms"
+    ],
+    "reasoning_quality_score": 0.6508333333333334,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_8451",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "presents ______1______ inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) ______2______ (Class-Weighted ______3______, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "answers": [
+      "a pipeline architecture for model",
+      "Logistic Regression",
+      "Random Forest"
+    ],
+    "thought_chain": [
+      "Question: presents ______1______ inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) ______2______ (Class-Weighted ______3______, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+      "Analyze the technical methods: a pipeline architecture for model, Logistic Regression and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.7397222222222222,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_2732",
+    "reasoning_type": "professional_entity_location",
+    "question": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis ______1______, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "answers": [
+      "increases"
+    ],
+    "thought_chain": [
+      "Question: is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis ______1______, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+      "Analyze the professional context and domain",
+      "Consider organizations like increases that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_6163",
+    "reasoning_type": "multimodal_temporal_reasoning",
+    "question": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases______1______elates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "answers": [
+      ", with the 10 - year window showing the best performance. this finding relates",
+      "10-year"
+    ],
+    "thought_chain": [
+      "Question: is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases______1______elates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+      "Examine the time-related information: , with the 10 - year window showing the best performance. this finding relates, 10-year",
+      "Analyze chronological relationships",
+      "Connect timing with context"
+    ],
+    "reasoning_quality_score": 0.8008333333333333,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_3234",
+    "reasoning_type": "causal_mechanism_reasoning",
+    "question": "is a set of four line graphs, each representing the performance of a model ______1______ency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model ______2______ency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "answers": [
+      "in predicting mortgage delinqu",
+      "in predicting mortgage delinqu"
+    ],
+    "thought_chain": [
+      "Question: is a set of four line graphs, each representing the performance of a model ______1______ency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model ______2______ency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+      "Trace how in predicting mortgage delinqu leads to the described outcome",
+      "Trace causal pathways",
+      "Analyze mechanisms"
+    ],
+    "reasoning_quality_score": 0.8008333333333333,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_9790",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "is a set of four line ______1______, each representing the performance of a model in predicting mortgage delinquency ______2______ different time windows and feature sets. The key scientific insight from the figure is that ______3______ in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "answers": [
+      "the performance of the model",
+      "graphs",
+      "across"
+    ],
+    "thought_chain": [
+      "Question: is a set of four line ______1______, each representing the performance of a model in predicting mortgage delinquency ______2______ different time windows and feature sets. The key scientific insight from the figure is that ______3______ in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+      "Analyze the technical methods: the performance of the model, graphs and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.7397222222222222,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_3804",
+    "reasoning_type": "professional_entity_location",
+    "question": "presents a comparison of variance estimation for the ______1______. NB stock using the LSTM-BEKK model and several benchmark multivariate volatility models. The ______2______-BEKK model outperforms the benchmark models in terms of variance estimation accuracy.",
+    "answers": [
+      "MSDFT",
+      "LSTM"
+    ],
+    "thought_chain": [
+      "Question: presents a comparison of variance estimation for the ______1______. NB stock using the LSTM-BEKK model and several benchmark multivariate volatility models. The ______2______-BEKK model outperforms the benchmark models in terms of variance estimation accuracy.",
+      "Analyze the professional context and domain",
+      "Consider organizations like MSDFT, LSTM that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_8463",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "presents a comparison of variance estimation for the MSDFT. NB stock using the LSTM-______1______ and several benchmark multivariate ______2______. The LSTM-______3______ outperforms the benchmark models in terms of variance estimation accuracy.",
+    "answers": [
+      "volatility models",
+      "BEKK model",
+      "BEKK model"
+    ],
+    "thought_chain": [
+      "Question: presents a comparison of variance estimation for the MSDFT. NB stock using the LSTM-______1______ and several benchmark multivariate ______2______. The LSTM-______3______ outperforms the benchmark models in terms of variance estimation accuracy.",
+      "Analyze the technical methods: volatility models, BEKK model and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.8397222222222223,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_8566",
+    "reasoning_type": "professional_entity_location",
+    "question": "presents a comparison between the proposed LSTM-BEKK model and several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. ______1______ is visualized through two line graphs, one for ______2______ (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+    "answers": [
+      "Microsoft",
+      "The data"
+    ],
+    "thought_chain": [
+      "Question: presents a comparison between the proposed LSTM-BEKK model and several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. ______1______ is visualized through two line graphs, one for ______2______ (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+      "Analyze the professional context and domain",
+      "Consider organizations like Microsoft, The data that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_7765",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "presents a comparison between the ______1______several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. The data is visualized through two line graphs, one for Microsoft (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+    "answers": [
+      "proposed lstm - bekk model and several",
+      "BEKK model",
+      "LSTM-BEKK"
+    ],
+    "thought_chain": [
+      "Question: presents a comparison between the ______1______several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. The data is visualized through two line graphs, one for Microsoft (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+      "Analyze the technical methods: proposed lstm - bekk model and several, BEKK model and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.7397222222222222,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_6867",
+    "reasoning_type": "professional_entity_location",
+    "question": "illustrates the in-sample variance estimation of the ______1______ (AAPL) stock price using a LSTM-BEKK model and several benchmark multivariate volatility models. The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating ______2______ and generalizability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+    "answers": [
+      "the scalability",
+      "Apple"
+    ],
+    "thought_chain": [
+      "Question: illustrates the in-sample variance estimation of the ______1______ (AAPL) stock price using a LSTM-BEKK model and several benchmark multivariate volatility models. The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating ______2______ and generalizability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+      "Analyze the professional context and domain",
+      "Consider organizations like the scalability, Apple that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_5917",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "illustrates the in-sample variance estimation of the Apple (AAPL) stock price using a LSTM-BEKK model ______1______ The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating the scalability and generalizability of the LSTM-BEK______2______-dimensional portfolios, as well as its superior performance compared to ______3______",
+    "answers": [
+      "and several benchmark multivariate volatility models.",
+      "##k model in high",
+      "existing models."
+    ],
+    "thought_chain": [
+      "Question: illustrates the in-sample variance estimation of the Apple (AAPL) stock price using a LSTM-BEKK model ______1______ The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating the scalability and generalizability of the LSTM-BEK______2______-dimensional portfolios, as well as its superior performance compared to ______3______",
+      "Analyze the technical methods: and several benchmark multivariate volatility models., ##k model in high and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.7397222222222222,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_8052",
+    "reasoning_type": "professional_entity_location",
+    "question": "is a line chart comparing the performance of a proposed LSTM-BEKK model against several benchmark multivariate volatility models on high-dimensional portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK model outperforms the benchmark models in capturing the complex dynamics of covariances, particularly in the ______1______. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "answers": [
+      "SCHW"
+    ],
+    "thought_chain": [
+      "Question: is a line chart comparing the performance of a proposed LSTM-BEKK model against several benchmark multivariate volatility models on high-dimensional portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK model outperforms the benchmark models in capturing the complex dynamics of covariances, particularly in the ______1______. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+      "Analyze the professional context and domain",
+      "Consider organizations like SCHW that are relevant to this domain",
+      "Match entity characteristics with domain knowledge"
+    ],
+    "reasoning_quality_score": 0.8202777777777779,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  },
+  {
+    "question_id": "q_5551",
+    "reasoning_type": "methodological_technical_reasoning",
+    "question": "is a line chart comparing the performance of a proposed LSTM-______1______ against several benchmark multivariate ______2______ portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK ______3______ models in capturing the complex dynamics of covariances, particularly in the SCHW. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "answers": [
+      "volatility models on high - dimensional",
+      "model outperforms the benchmark",
+      "BEKK model"
+    ],
+    "thought_chain": [
+      "Question: is a line chart comparing the performance of a proposed LSTM-______1______ against several benchmark multivariate ______2______ portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK ______3______ models in capturing the complex dynamics of covariances, particularly in the SCHW. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+      "Analyze the technical methods: volatility models on high - dimensional, model outperforms the benchmark and their applications",
+      "Analyze method characteristics",
+      "Evaluate method appropriateness"
+    ],
+    "reasoning_quality_score": 0.7397222222222222,
+    "mcts_iterations": 20,
+    "mcts_exploration_depth": 4
+  }
+]

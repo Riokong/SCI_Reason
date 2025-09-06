@@ -1,0 +1,674 @@
+[
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "gapped_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, ______1______ LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market ______2______.",
+    "masked_entities": [
+      {
+        "text": "Benchmarks & Origin Attributes",
+        "start": 523,
+        "end": 553,
+        "label": "ORG",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "Tuned & Balanced",
+        "start": 427,
+        "end": 443,
+        "label": "ORG",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "Tuned & Balanced",
+      "Benchmarks & Origin Attributes"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.8
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2501.00034v1_fig2.png",
+    "caption": "Model Inference Pipeline Architecture."
+  },
+  {
+    "reasoning_type": "multimodal_temporal_reasoning",
+    "competency": "time-dependent process understanding across modalities",
+    "original_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "gapped_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for ______1______ default status. The study utilizes Freddie Mac's single-family ______2______ ______3______. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "masked_entities": [
+      {
+        "text": "mortgage monthly performance data spanning from",
+        "start": 200,
+        "end": 247,
+        "label": "LABEL_1",
+        "confidence": 0.6376233100891113,
+        "source": "scibert"
+      },
+      {
+        "text": "next-month",
+        "start": 126,
+        "end": 136,
+        "label": "DATE",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "2012 to 2022",
+        "start": 248,
+        "end": 260,
+        "label": "TEMPORAL",
+        "confidence": 0.7,
+        "source": "pattern"
+      }
+    ],
+    "answers": [
+      "next-month",
+      "mortgage monthly performance data spanning from",
+      "2012 to 2022"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.6376233100891113,
+      0.7
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2501.00034v1_fig2.png",
+    "caption": "Model Inference Pipeline Architecture."
+  },
+  {
+    "reasoning_type": "cross_subgraph_role_reasoning",
+    "competency": "inter-component relationship analysis",
+    "original_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "gapped_text": "presents a pipeline ______1______ for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2______ ______3________Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "masked_entities": [
+      {
+        "text": "the pipeline architecture is composed of",
+        "start": 262,
+        "end": 302,
+        "label": "LABEL_1",
+        "confidence": 0.5820052623748779,
+        "source": "scibert"
+      },
+      {
+        "text": "main stages : 1 ) sequences (",
+        "start": 309,
+        "end": 336,
+        "label": "LABEL_1",
+        "confidence": 0.6511666178703308,
+        "source": "scibert"
+      },
+      {
+        "text": "three main stages",
+        "start": 303,
+        "end": 320,
+        "label": "RELATIONAL",
+        "confidence": 0.7,
+        "source": "pattern"
+      },
+      {
+        "text": "architecture",
+        "start": 20,
+        "end": 32,
+        "label": "FRAMEWORK",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "architecture",
+      "the pipeline architecture is composed of",
+      "three main stages",
+      "main stages : 1 ) sequences ("
+    ],
+    "confidence_scores": [
+      0.8,
+      0.5820052623748779,
+      0.7,
+      0.6511666178703308
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2501.00034v1_fig2.png",
+    "caption": "Model Inference Pipeline Architecture."
+  },
+  {
+    "reasoning_type": "causal_mechanism_reasoning",
+    "competency": "cause-effect understanding",
+    "original_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "gapped_text": "presents a pipeline architecture for model inference in a scientific ______1______ for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. ______2______ three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "masked_entities": [
+      {
+        "text": "study related to predicting probability distribution",
+        "start": 69,
+        "end": 121,
+        "label": "LABEL_1",
+        "confidence": 0.6457720398902893,
+        "source": "scibert"
+      },
+      {
+        "text": "the pipeline architecture is composed of",
+        "start": 262,
+        "end": 302,
+        "label": "LABEL_1",
+        "confidence": 0.5820052623748779,
+        "source": "scibert"
+      }
+    ],
+    "answers": [
+      "study related to predicting probability distribution",
+      "the pipeline architecture is composed of"
+    ],
+    "confidence_scores": [
+      0.6457720398902893,
+      0.5820052623748779
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2501.00034v1_fig2.png",
+    "caption": "Model Inference Pipeline Architecture."
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) Logistic Regression (Class-Weighted Random Forest, Tuned & Balanced LSTM, and Transformer), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "gapped_text": "presents a pipeline architecture for model inference in a scientific study related to predicting probability distribution for next-month default status. The study utilizes Freddie Mac's single-family mortgage monthly performance data spanning from 2012 to 2022. The pipeline architecture is composed of three main stages: 1) Sequences (Chosen Time Window and Feature Set), 2) ______1______ (Class-Weighted ______2______, Tuned & Balanced LSTM, and ______3______), and 3) Cold-Start Handling: Early Observations, Market Benchmarks & Origin Attributes.",
+    "masked_entities": [
+      {
+        "text": "Logistic Regression",
+        "start": 376,
+        "end": 395,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "Random Forest",
+        "start": 412,
+        "end": 425,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "Transformer",
+        "start": 454,
+        "end": 465,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "Logistic Regression",
+      "Random Forest",
+      "Transformer"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2501.00034v1_fig2.png",
+    "caption": "Model Inference Pipeline Architecture."
+  },
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "gapped_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinqu______1______, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "masked_entities": [
+      {
+        "text": "##ency improves as the time window for data analysis increases",
+        "start": 268,
+        "end": 328,
+        "label": "LABEL_1",
+        "confidence": 0.7158715128898621,
+        "source": "scibert"
+      }
+    ],
+    "answers": [
+      "##ency improves as the time window for data analysis increases"
+    ],
+    "confidence_scores": [
+      0.7158715128898621
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2501.00034v1_fig3.png",
+    "caption": "Model Performance"
+  },
+  {
+    "reasoning_type": "multimodal_temporal_reasoning",
+    "competency": "time-dependent process understanding across modalities",
+    "original_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "gapped_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, ______1______. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "masked_entities": [
+      {
+        "text": "with the 10 - year window showing the best performance. this",
+        "start": 330,
+        "end": 388,
+        "label": "LABEL_1",
+        "confidence": 0.6776230335235596,
+        "source": "scibert"
+      },
+      {
+        "text": "10-year",
+        "start": 339,
+        "end": 346,
+        "label": "DATE",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "with the 10 - year window showing the best performance. this",
+      "10-year"
+    ],
+    "confidence_scores": [
+      0.6776230335235596,
+      0.8
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2501.00034v1_fig3.png",
+    "caption": "Model Performance"
+  },
+  {
+    "reasoning_type": "causal_mechanism_reasoning",
+    "competency": "cause-effect understanding",
+    "original_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "gapped_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for ______1______inquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "masked_entities": [
+      {
+        "text": "data analysis in predicting mortgage del",
+        "start": 504,
+        "end": 544,
+        "label": "LABEL_1",
+        "confidence": 0.6764551997184753,
+        "source": "scibert"
+      }
+    ],
+    "answers": [
+      "data analysis in predicting mortgage del"
+    ],
+    "confidence_scores": [
+      0.6764551997184753
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2501.00034v1_fig3.png",
+    "caption": "Model Performance"
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "is a set of four line graphs, each representing the performance of a model in predicting mortgage delinquency across different time windows and feature sets. The key scientific insight from the figure is that the performance of the model in predicting mortgage delinquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "gapped_text": "is a set of four ______1______age delinquency across different time windows and feature sets. The key scientific insight from the figure is ______3______inquency improves as the time window for data analysis increases, with the 10-year window showing the best performance. This finding relates to the research objectives by demonstrating the importance of considering a longer time window for data analysis in predicting mortgage delinquency, which could be useful for financial institutions and regulators in making informed decisions related to mortgage lending and risk management.",
+    "masked_entities": [
+      {
+        "text": "line graphs, each representing the performance of a model in predicting mortgage del",
+        "start": 17,
+        "end": 101,
+        "label": "LABEL_1",
+        "confidence": 0.6613073348999023,
+        "source": "scibert"
+      },
+      {
+        "text": "that the performance of the model in predicting mortgage del",
+        "start": 204,
+        "end": 264,
+        "label": "LABEL_1",
+        "confidence": 0.6890653967857361,
+        "source": "scibert"
+      },
+      {
+        "text": "graphs",
+        "start": 22,
+        "end": 28,
+        "label": "METHOD",
+        "confidence": 0.7,
+        "source": "pattern"
+      }
+    ],
+    "answers": [
+      "line graphs, each representing the performance of a model in predicting mortgage del",
+      "graphs",
+      "that the performance of the model in predicting mortgage del"
+    ],
+    "confidence_scores": [
+      0.6613073348999023,
+      0.7,
+      0.6890653967857361
+    ],
+    "paper_id": "arXiv-2501.00034v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2501.00034v1_fig3.png",
+    "caption": "Model Performance"
+  },
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "presents a comparison of variance estimation for the MSDFT. NB stock using the LSTM-BEKK model and several benchmark multivariate volatility models. The LSTM-BEKK model outperforms the benchmark models in terms of variance estimation accuracy.",
+    "gapped_text": "presents a comparison of variance estimation for the ______1______. NB stock using the LSTM-BEKK model and several benchmark multivariate volatility models. The ______2______-BEKK model outperforms the benchmark models in terms of variance estimation accuracy.",
+    "masked_entities": [
+      {
+        "text": "MSDFT",
+        "start": 53,
+        "end": 58,
+        "label": "DATASET",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "LSTM",
+        "start": 153,
+        "end": 157,
+        "label": "DATASET",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "MSDFT",
+      "LSTM"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.8
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig1",
+    "figure_path": "images1/arXiv-2506.02796v1_fig1.png",
+    "caption": "In-Sample Variance Estimation for MSFT.NB Across Models."
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "presents a comparison of variance estimation for the MSDFT. NB stock using the LSTM-BEKK model and several benchmark multivariate volatility models. The LSTM-BEKK model outperforms the benchmark models in terms of variance estimation accuracy.",
+    "gapped_text": "presents a comparison of variance estimation for ______1______ terms of variance estimation accuracy.",
+    "masked_entities": [
+      {
+        "text": "the msdft. nb stock using the lstm - bekk model and several benchmark multivariate volatility models. the lstm - bekk model outperforms the benchmark models in terms",
+        "start": 49,
+        "end": 210,
+        "label": "LABEL_1",
+        "confidence": 0.6824885606765747,
+        "source": "scibert"
+      },
+      {
+        "text": "BEKK model",
+        "start": 84,
+        "end": 94,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "BEKK model",
+        "start": 158,
+        "end": 168,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "the msdft. nb stock using the lstm - bekk model and several benchmark multivariate volatility models. the lstm - bekk model outperforms the benchmark models in terms",
+      "BEKK model",
+      "BEKK model"
+    ],
+    "confidence_scores": [
+      0.6824885606765747,
+      0.8,
+      0.8
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig1",
+    "figure_path": "images1/arXiv-2506.02796v1_fig1.png",
+    "caption": "In-Sample Variance Estimation for MSFT.NB Across Models."
+  },
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "presents a comparison between the proposed LSTM-BEKK model and several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. The data is visualized through two line graphs, one for Microsoft (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+    "gapped_text": "presents a comparison between the proposed LSTM-BEKK model and several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. The data is visualized through two line graphs, one for ______1______ (MSFT) and the other for ______2______ (AAPL), highlighting their predominantly positive covariance.",
+    "masked_entities": [
+      {
+        "text": "Apple",
+        "start": 393,
+        "end": 398,
+        "label": "ORG",
+        "confidence": 0.9965294003486633,
+        "source": "general"
+      },
+      {
+        "text": "Microsoft",
+        "start": 358,
+        "end": 367,
+        "label": "ORG",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "Microsoft",
+      "Apple"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.9965294003486633
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2506.02796v1_fig2.png",
+    "caption": "MSFT.NB AAPL.NB (predominantly positive covariance)."
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "presents a comparison between the proposed LSTM-BEKK model and several benchmark multivariate volatility models. The comparison is conducted on high-dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the United States, the United Kingdom, and Japan. The data is visualized through two line graphs, one for Microsoft (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+    "gapped_text": "presents a comparison between the proposed ______1________2____________ is visualized through two line graphs, one for Microsoft (MSFT) and the other for Apple (AAPL), highlighting their predominantly positive covariance.",
+    "masked_entities": [
+      {
+        "text": "##k model and several benchmark multivariate volatility models. the comparison is conducted on high - dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the united states, the united kingdom, and japan. the data",
+        "start": 51,
+        "end": 310,
+        "label": "LABEL_1",
+        "confidence": 0.6931151747703552,
+        "source": "scibert"
+      },
+      {
+        "text": "BEKK model",
+        "start": 48,
+        "end": 58,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      },
+      {
+        "text": "LSTM-BEKK",
+        "start": 43,
+        "end": 52,
+        "label": "METHOD",
+        "confidence": 0.7,
+        "source": "pattern"
+      }
+    ],
+    "answers": [
+      "LSTM-BEKK",
+      "BEKK model",
+      "##k model and several benchmark multivariate volatility models. the comparison is conducted on high - dimensional portfolios constructed from the top 100, 175, and 250 equities by market capitalization in the united states, the united kingdom, and japan. the data"
+    ],
+    "confidence_scores": [
+      0.7,
+      0.8,
+      0.6931151747703552
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig2",
+    "figure_path": "images1/arXiv-2506.02796v1_fig2.png",
+    "caption": "MSFT.NB AAPL.NB (predominantly positive covariance)."
+  },
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "illustrates the in-sample variance estimation of the Apple (AAPL) stock price using a LSTM-BEKK model and several benchmark multivariate volatility models. The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating the scalability and generalizability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+    "gapped_text": "illustrates the in-sample variance estimation of the ______1______ (AAPL) stock price using a LSTM-BEKK model and several benchmark multivariate volatility models. The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of ______2______izability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+    "masked_entities": [
+      {
+        "text": "evaluating the scalability and general",
+        "start": 435,
+        "end": 473,
+        "label": "LABEL_1",
+        "confidence": 0.6400748491287231,
+        "source": "scibert"
+      },
+      {
+        "text": "Apple",
+        "start": 53,
+        "end": 58,
+        "label": "ORG",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "Apple",
+      "evaluating the scalability and general"
+    ],
+    "confidence_scores": [
+      0.8,
+      0.6400748491287231
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2506.02796v1_fig3.png",
+    "caption": "In-Sample Variance Estimation for AAPL.NB Across Models."
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "illustrates the in-sample variance estimation of the Apple (AAPL) stock price using a LSTM-BEKK model and several benchmark multivariate volatility models. The visualization shows the variance of the AAPL stock price over time, with the LSTM-BEKK model outperforming the other models, demonstrating the effectiveness of the proposed model in accurately estimating the stock's variance. This finding supports the research objectives of evaluating the scalability and generalizability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+    "gapped_text": "illustrates the in-sample variance estimation of ______1______ visualization ______2______, demonstrating the effectiveness of ______3______ finding supports the research objectives of evaluating the scalability and generalizability of the LSTM-BEKK model in high-dimensional portfolios, as well as its superior performance compared to existing models.",
+    "masked_entities": [
+      {
+        "text": "the apple ( aapl ) stock price using a lstm - bekk model and several benchmark multivariate volatility models. the",
+        "start": 49,
+        "end": 159,
+        "label": "LABEL_1",
+        "confidence": 0.7130432724952698,
+        "source": "scibert"
+      },
+      {
+        "text": "shows the variance of the aapl stock price over time, with the lstm - bekk model outperforming the other models",
+        "start": 174,
+        "end": 283,
+        "label": "LABEL_1",
+        "confidence": 0.7048588395118713,
+        "source": "scibert"
+      },
+      {
+        "text": "the proposed model in accurately estimating the stock ' s variance. this",
+        "start": 320,
+        "end": 390,
+        "label": "LABEL_1",
+        "confidence": 0.6462854146957397,
+        "source": "scibert"
+      }
+    ],
+    "answers": [
+      "the apple ( aapl ) stock price using a lstm - bekk model and several benchmark multivariate volatility models. the",
+      "shows the variance of the aapl stock price over time, with the lstm - bekk model outperforming the other models",
+      "the proposed model in accurately estimating the stock ' s variance. this"
+    ],
+    "confidence_scores": [
+      0.7130432724952698,
+      0.7048588395118713,
+      0.6462854146957397
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig3",
+    "figure_path": "images1/arXiv-2506.02796v1_fig3.png",
+    "caption": "In-Sample Variance Estimation for AAPL.NB Across Models."
+  },
+  {
+    "reasoning_type": "professional_entity_location",
+    "competency": "domain knowledge recognition",
+    "original_text": "is a line chart comparing the performance of a proposed LSTM-BEKK model against several benchmark multivariate volatility models on high-dimensional portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK model outperforms the benchmark models in capturing the complex dynamics of covariances, particularly in the SCHW. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "gapped_text": "is a line chart comparing the performance of a proposed LSTM-BEKK model against several benchmark multivariate volatility models on high-dimensional portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK model outperforms the benchmark models in capturing the complex dynamics of covariances, particularly in the ______1______. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "masked_entities": [
+      {
+        "text": "SCHW",
+        "start": 345,
+        "end": 349,
+        "label": "DATASET",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "SCHW"
+    ],
+    "confidence_scores": [
+      0.8
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig4",
+    "figure_path": "images1/arXiv-2506.02796v1_fig4.png",
+    "caption": "SCHW.N NEM.N (predominantly negative covariance with occasional reversals)."
+  },
+  {
+    "reasoning_type": "methodological_technical_reasoning",
+    "competency": "research method comprehension",
+    "original_text": "is a line chart comparing the performance of a proposed LSTM-BEKK model against several benchmark multivariate volatility models on high-dimensional portfolios. The key scientific insight demonstrated in the chart is that the LSTM-BEKK model outperforms the benchmark models in capturing the complex dynamics of covariances, particularly in the SCHW. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "gapped_text": "is a line ______1______fic insight demonstrated in the chart is ______3______ in capturing the complex dynamics of covariances, particularly in the SCHW. N portfolio, which shows predominantly negative covariance with occasional reversals.",
+    "masked_entities": [
+      {
+        "text": "chart comparing the performance of a proposed lstm - bekk model against several benchmark multivariate volatility models on high - dimensional portfolios. the key scientific",
+        "start": 10,
+        "end": 179,
+        "label": "LABEL_1",
+        "confidence": 0.6777340173721313,
+        "source": "scibert"
+      },
+      {
+        "text": "that the lstm - bekk model outperforms the benchmark models",
+        "start": 217,
+        "end": 274,
+        "label": "LABEL_1",
+        "confidence": 0.7217361330986023,
+        "source": "scibert"
+      },
+      {
+        "text": "BEKK model",
+        "start": 61,
+        "end": 71,
+        "label": "METHOD",
+        "confidence": 0.8,
+        "source": "spacy"
+      }
+    ],
+    "answers": [
+      "chart comparing the performance of a proposed lstm - bekk model against several benchmark multivariate volatility models on high - dimensional portfolios. the key scientific",
+      "BEKK model",
+      "that the lstm - bekk model outperforms the benchmark models"
+    ],
+    "confidence_scores": [
+      0.6777340173721313,
+      0.8,
+      0.7217361330986023
+    ],
+    "paper_id": "arXiv-2506.02796v1",
+    "figure_id": "fig4",
+    "figure_path": "images1/arXiv-2506.02796v1_fig4.png",
+    "caption": "SCHW.N NEM.N (predominantly negative covariance with occasional reversals)."
+  }
+]
